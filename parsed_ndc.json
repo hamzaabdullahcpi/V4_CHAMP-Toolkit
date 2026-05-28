@@ -1,0 +1,642 @@
+[
+  {
+    "COUNTRY": "Andorra*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A"
+  },
+  {
+    "COUNTRY": "Angola",
+    "NDC 2.0": "B",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Australia*",
+    "NDC 2.0": "C",
+    "NDC 3.0": "C+"
+  },
+  {
+    "COUNTRY": "Austria",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Azerbaijan*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Bahamas*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Bahrain",
+    "NDC 2.0": "C",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Bangladesh*",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Barbados",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Belarus",
+    "NDC 2.0": "No",
+    "NDC 3.0": "C+"
+  },
+  {
+    "COUNTRY": "Belgium*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Belize",
+    "NDC 2.0": "A",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Bhutan*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "B"
+  },
+  {
+    "COUNTRY": "Bolivia (Plurinational State of)*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Brazil*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Bulgaria*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Brunei Darussalam*",
+    "NDC 2.0": "B",
+    "NDC 3.0": "C"
+  },
+  {
+    "COUNTRY": "Burkina Faso*",
+    "NDC 2.0": "C",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Burundi",
+    "NDC 2.0": "B",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Cabo Verde*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Cambodia",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Canada*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Chile*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "China",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Colombia*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Costa Rica*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Côte d’Ivoire*",
+    "NDC 2.0": "B",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Croatia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Cuba",
+    "NDC 2.0": "A",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Cyprus",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Czechia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Denmark*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Djibouti",
+    "NDC 2.0": "A",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Ecuador",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "El Salvador*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Estonia*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Eswatini*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Ethiopia*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "European Union*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Fiji",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Finland*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "France*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Gabon",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Germany*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Greece",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Guinea",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Holy See",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Hungary*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Iceland*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Indonesia",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Iraq",
+    "NDC 2.0": "A",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Ireland",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Italy*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Jamaica*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "C"
+  },
+  {
+    "COUNTRY": "Kazakhstan",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "A"
+  },
+  {
+    "COUNTRY": "Japan*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Kenya*",
+    "NDC 2.0": "A",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Kyrgyzstan*",
+    "NDC 2.0": "B",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Latvia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Lebanon*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Liberia",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Liechtenstein",
+    "NDC 2.0": "No",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Lithuania",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Luxembourg",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Malaysia",
+    "NDC 2.0": "A",
+    "NDC 3.0": "B"
+  },
+  {
+    "COUNTRY": "Maldives",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "C+"
+  },
+  {
+    "COUNTRY": "Malta",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Marshall Islands",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Mauritania",
+    "NDC 2.0": "A",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Mauritius",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Mexico*",
+    "NDC 2.0": "A",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Micronesia (Federated States of)",
+    "NDC 2.0": "C",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Monaco",
+    "NDC 2.0": "A",
+    "NDC 3.0": "A"
+  },
+  {
+    "COUNTRY": "Mongolia*",
+    "NDC 2.0": "C",
+    "NDC 3.0": "B"
+  },
+  {
+    "COUNTRY": "Montenegro",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "C"
+  },
+  {
+    "COUNTRY": "Morocco*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Mozambique",
+    "NDC 2.0": "A",
+    "NDC 3.0": "C"
+  },
+  {
+    "COUNTRY": "Nepal",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Netherlands*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "New Zealand",
+    "NDC 2.0": "No",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Nicaragua*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A"
+  },
+  {
+    "COUNTRY": "Nigeria*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Niue",
+    "NDC 2.0": "C",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Norway*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Pakistan*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Panama*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Paraguay*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Peru",
+    "NDC 2.0": "C",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Poland*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Portugal*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Qatar",
+    "NDC 2.0": "C",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Republic of Korea*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Romania",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Republic of Moldova*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Russian Federation",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Rwanda*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Saint Lucia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Sao Tome and Principe",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Saudi Arabia",
+    "NDC 2.0": "A",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Serbia*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "C"
+  },
+  {
+    "COUNTRY": "Seychelles*",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Singapore",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Solomon Islands",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Somalia",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Sierra Leone*",
+    "NDC 2.0": "B",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Slovakia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Slovenia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Spain",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "South Africa",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Sri Lanka*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Suriname",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Sweden*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Switzerland",
+    "NDC 2.0": "No",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Thailand",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "No"
+  },
+  {
+    "COUNTRY": "Tonga",
+    "NDC 2.0": "C",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Türkiye*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "C+"
+  },
+  {
+    "COUNTRY": "Tuvalu",
+    "NDC 2.0": "C+",
+    "NDC 3.0": "B+"
+  },
+  {
+    "COUNTRY": "Ukraine*",
+    "NDC 2.0": "C",
+    "NDC 3.0": "C"
+  },
+  {
+    "COUNTRY": "United Arab Emirates*",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "United Kingdom*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "C+"
+  },
+  {
+    "COUNTRY": "United States of America*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "C+"
+  },
+  {
+    "COUNTRY": "Uruguay",
+    "NDC 2.0": "A+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Uzbekistan",
+    "NDC 2.0": "C",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Vanuatu",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Venezuela (Bolivarian Republic of)",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "A+"
+  },
+  {
+    "COUNTRY": "Yemen*",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A"
+  },
+  {
+    "COUNTRY": "Zambia",
+    "NDC 2.0": "No",
+    "NDC 3.0": "A"
+  },
+  {
+    "COUNTRY": "Zimbabwe",
+    "NDC 2.0": "B+",
+    "NDC 3.0": "B+"
+  }
+]
