@@ -154,7 +154,7 @@ export default function MapDashboard({ stats, onNavigateToStep }: MapDashboardPr
   const [fullOecdData, setFullOecdData] = useState<any>(null);
 
   React.useEffect(() => {
-    fetch(`/api/oecd.json`)
+    fetch(`${import.meta.env.BASE_URL}api/oecd.json`)
       .then(res => {
         if (res.ok) return res.json();
         return null;
@@ -267,7 +267,7 @@ export default function MapDashboard({ stats, onNavigateToStep }: MapDashboardPr
     const fetchOECD = async () => {
       setLoadingOecd(true);
       try {
-        const response = await fetch(`/api/oecd.json`);
+        const response = await fetch(`${import.meta.env.BASE_URL}api/oecd.json`);
         let oecdJsonData = null;
         if (response.ok) {
            oecdJsonData = await response.json();
@@ -290,7 +290,7 @@ export default function MapDashboard({ stats, onNavigateToStep }: MapDashboardPr
     const fetchSDG = async () => {
       setLoadingSdg(true);
       try {
-        const response = await fetch(`/api/sdg.json`);
+        const response = await fetch(`${import.meta.env.BASE_URL}api/sdg.json`);
         let sdgJsonData = null;
         if (response.ok) {
            sdgJsonData = await response.json();
@@ -313,7 +313,7 @@ export default function MapDashboard({ stats, onNavigateToStep }: MapDashboardPr
     const fetchUnPop = async () => {
       setLoadingUnPop(true);
       try {
-        const response = await fetch(`/api/unpop.json`);
+        const response = await fetch(`${import.meta.env.BASE_URL}api/unpop.json`);
         let unPopJsonData = null;
         if (response.ok) {
            unPopJsonData = await response.json();
