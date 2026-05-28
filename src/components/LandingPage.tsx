@@ -74,13 +74,14 @@ export default function LandingPage({ onStart, onIntro, onNavigateToStep }: Land
             <span className="text-[11px] font-bold text-surface uppercase tracking-[0.2em]">A toolkit for national governments, cities and friends of CHAMP</span>
           </div>
           
-          <h1 className="font-heading text-5xl md:text-6xl lg:text-[5.5rem] font-medium tracking-tight text-surface mb-6 leading-[1.05]">
-            The <span className="bg-[#3c4799] text-white px-3 py-0.5 rounded-sm inline-block mx-1">CHAMP</span> Toolkit.
-            <span className="block text-surface/80 mt-2 font-light">Financing Climate Action.</span>
+          <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-medium tracking-tight text-surface mb-6 leading-[1.05]">
+            <span className="bg-[#3c4799] text-white px-3 py-0.5 rounded-sm inline-block mr-2">CHAMP</span>
+            Toolkit
+            <span className="block text-surface/80 mt-2 font-light text-4xl md:text-5xl lg:text-6xl">for Multilevel Climate Investment.</span>
           </h1>
           
-          <p className="text-xl md:text-2xl text-surface/90 leading-relaxed font-light mb-8 max-w-3xl">
-            Empowering CHAMP countries to deliver national climate commitments and financing at the city level through Multi-Level Governance.
+          <p className="text-xl md:text-2xl text-surface/90 leading-relaxed font-light mb-8 max-w-4xl">
+            Supporting the ‘CHAMP Investment Pledge’ delivery through guidance on policy reform, governance, investment pipelines, project aggregation and financial instruments.
           </p>
         </div>
       </motion.div>

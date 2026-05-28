@@ -1,7 +1,7 @@
 export const landingPageData = {
   hero: {
-    title: "CHAMP Toolkit: Financing Climate Action through Multilevel Governance",
-    subtitle: "Helping national governments put multilevel governance into practice to align planning, financing, and delivery systems ahead of COP30."
+    title: "CHAMP Toolkit for Multilevel Climate Investment",
+    subtitle: "Supporting the ‘CHAMP Investment Pledge’ delivery through guidance on policy reform, governance, investment pipelines, project aggregation and financial instruments"
   },
   dashboard: [
     {
