@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { LayoutDashboard, Target, Building2, Network, Coins, TrendingUp, Users, BookOpen, X, MapPin, ChevronDown, ChevronRight, Globe, Settings } from "lucide-react";
+import { LayoutDashboard, Target, Building2, Network, Coins, TrendingUp, Users, Home, X, MapPin, ChevronDown, ChevronRight, Globe, Settings } from "lucide-react";
 import { useState } from "react";
 
 interface SidebarProps {
@@ -14,7 +14,7 @@ export default function Sidebar({ currentStep, setCurrentStep, isOpen, toggleSid
   const [part2Open, setPart2Open] = useState(false);
 
   const navItemsGeneral: { id: number | string, label: string, icon: any }[] = [
-    { id: 0, label: "Home", icon: BookOpen },
+    { id: 0, label: "Home", icon: Home },
     { id: 'dashboard', label: "Dashboard", icon: LayoutDashboard },
   ];
 
@@ -56,7 +56,7 @@ export default function Sidebar({ currentStep, setCurrentStep, isOpen, toggleSid
   };
 
   return (
-    <div className={`w-64 h-screen bg-surface border-r border-line flex flex-col fixed left-0 top-0 z-40 transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'} overflow-hidden`}>
+    <div className={`w-72 h-screen bg-surface border-r border-line flex flex-col fixed left-0 top-0 z-40 transition-transform duration-300 ${isOpen ? 'translate-x-0' : '-translate-x-full'} overflow-hidden`}>
       <div className="p-6 border-b border-line flex justify-between items-start shrink-0">
         <div>
           <h1 className="font-heading font-semibold text-xl text-ink leading-[1.2] tracking-tight">

@@ -18,7 +18,7 @@ export default function App() {
     <div className="min-h-screen bg-paper flex font-sans selection:bg-accent selection:text-surface">
       <Sidebar currentStep={currentStep} setCurrentStep={setCurrentStep} isOpen={isSidebarOpen} toggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)} />
       
-      <main className={`flex-1 min-h-screen overflow-y-auto transition-all duration-300 ${isSidebarOpen ? 'ml-64' : 'ml-0'}`}>
+      <main className={`flex-1 min-h-screen overflow-y-auto transition-all duration-300 ${isSidebarOpen ? 'ml-72' : 'ml-0'}`}>
         {!isSidebarOpen && (
           <button
             onClick={() => setIsSidebarOpen(true)}
