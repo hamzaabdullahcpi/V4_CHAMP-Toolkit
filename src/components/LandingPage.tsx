@@ -129,12 +129,20 @@ export default function LandingPage({ onStart, onIntro, onNavigateToStep }: Land
           ))}
         </div>
 
-        <div className="flex justify-center w-full">
+        <div className="flex flex-col md:flex-row justify-center items-center w-full gap-6">
           <motion.button
             onClick={() => onNavigateToStep && onNavigateToStep('dashboard' as any)}
-            className="group/btn relative inline-flex items-center justify-center gap-4 bg-ink text-surface px-10 py-5 text-[15px] font-bold uppercase tracking-widest hover:bg-accent hover:shadow-[0_4px_16px_rgba(60,71,153,0.3)] transition-all overflow-hidden w-full md:w-auto"
+            className="group/btn relative inline-flex items-center justify-center gap-4 bg-ink text-surface px-10 py-5 text-[15px] font-bold uppercase tracking-widest hover:bg-accent hover:shadow-[0_4px_16px_rgba(60,71,153,0.3)] transition-all overflow-hidden w-full md:w-[340px]"
           >
             See Dashboard
+            <ArrowRight size={18} className="group-hover/btn:translate-x-1 transition-transform" />
+          </motion.button>
+          
+          <motion.button
+            onClick={() => onNavigateToStep && onNavigateToStep('sweden' as any)}
+            className="group/btn relative inline-flex items-center justify-center gap-4 bg-ink text-surface px-10 py-5 text-[15px] font-bold uppercase tracking-widest hover:bg-accent hover:shadow-[0_4px_16px_rgba(60,71,153,0.3)] transition-all overflow-hidden w-full md:w-[340px]"
+          >
+            See Country Journeys
             <ArrowRight size={18} className="group-hover/btn:translate-x-1 transition-transform" />
           </motion.button>
         </div>

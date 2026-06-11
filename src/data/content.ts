@@ -558,25 +558,38 @@ export const actionsData = [
 
 export const deepDiveData = {
   sweden: {
-    title: "Sweden Deep Dive",
+    title: "Sweden's Journey to Multilevel Climate Implementation",
     subtitle: "A Flagship Systems-Oriented Case Study",
     description: "The Sweden deep dive serves as the flagship systems-oriented case showing how different multilevel functions have operated together over time, as part of a long-term climate transition ecosystem.",
-    objectives: [
-      "How different Action Pathways interact operationally",
-      "How governance and financing mechanisms evolve",
-      "Where institutional coordination and implementation feedback loops or friction emerge",
-      "What enabling conditions support long-term scaling and systems transformation"
-    ],
-    models: [
-      { name: "Climate City Contracts", description: "Joint investment and governance agreements." },
-      { name: "Viable Cities", description: "National platform integrating research and policy." },
-      { name: "Samordningsfunktionen", description: "Coordination function linking various administrative levels." },
-      { name: "System Demonstrators", description: "Pilots for large-scale systemic changes." },
-      { name: "Local Climate Investment Frameworks", description: "Structures containing the EnergyNet use case for municipal financing." },
-      { name: "Viability Fund", description: "A catalytic funding instrument." },
-      { name: "Procurement Market-Shaping", description: "Using municipal buying power for green transitions." },
-      { name: "CapaCITIES", description: "Capacity building interventions." },
-      { name: "Cities2030", description: "Long-term municipal horizon planning." }
-    ]
+    context: {
+      title: "A. The Swedish Context",
+      description: "This section provides contextual background on the mission-oriented nature of Sweden's journey to multilevel governance. It explores the political, institutional, fiscal, and governance conditions that shaped the evolution of Sweden's multilevel climate governance and implementation ecosystem.",
+      purpose: "The purpose of this section is to help the CHAMP ecosystem better understand why specific multilevel governance, financing, and implementation mechanisms emerged in Sweden, how they evolved over time, and which enabling conditions, institutional capacities, and coordination cultures helped shape their development."
+    },
+    governanceModel: {
+      title: "B. Sweden's Multilevel Climate Governance Model: Key Mechanisms, Successes and Challenges",
+      pathwaysIntro: "This section explores the evolution of the following Action Pathways:",
+      actionPathways: [
+        { name: "Climate City Contracts", description: "Joint investment and governance agreements aligning national and municipal climate goals." },
+        { name: "Viable Cities", description: "National strategic innovation program serving as a bridging platform." },
+        { name: "Samordningsfunktionen", description: "Coordination function linking various administrative levels." },
+        { name: "System Demonstrators", description: "Practical, city-scale pilots aiming for large-scale systemic changes." },
+        { name: "Local Climate Investment Frameworks", description: "Structures for municipal financing, including the EnergyNet use case." },
+        { name: "Viability Fund", description: "A catalytic funding instrument." },
+        { name: "Procurement and Market-Shaping", description: "Leveraging municipal buying power for green transitions." },
+        { name: "CapaCITIES", description: "Capacity building interventions." },
+        { name: "Cities2030", description: "Long-term municipal horizon planning." }
+      ],
+      orchestrationLogic: {
+        title: "Orchestration Logic of the Swedish Model",
+        points: [
+          "How different Action Pathways interact operationally",
+          "How governance and financing mechanisms evolve",
+          "Where institutional coordination and implementation feedback loops emerge",
+          "Where institutional frictions, challenges and trade-offs emerge",
+          "What enabling conditions support the transferability of these pathways and support systemic transformation in contexts with limited institutional capacities"
+        ]
+      }
+    }
   }
 };

@@ -3,7 +3,7 @@ import Sidebar from "./components/Sidebar";
 import LandingPage from "./components/LandingPage";
 import StepView from "./components/StepView";
 import MapDashboard from "./components/MapDashboard";
-import { actionsData, landingPageData } from "./data/content";
+import { actionsData, landingPageData, deepDiveData } from "./data/content";
 import { Menu, ArrowRight, MapPin } from "lucide-react";
 
 export default function App() {
@@ -89,28 +89,47 @@ export default function App() {
           ) : currentStep === 'sweden' ? (
             <div className="py-12 max-w-4xl mx-auto pb-32">
               <span className="font-sans text-sm font-semibold text-ink-muted mb-4 block tracking-wider uppercase">Country Journey</span>
-              <h1 className="font-heading text-5xl md:text-6xl text-ink leading-[1.1] mb-6">Sweden's Journey to Multilevel Climate Implementation</h1>
+              <h1 className="font-heading text-5xl md:text-6xl text-ink leading-[1.1] mb-6">{deepDiveData.sweden.title}</h1>
               <p className="text-xl text-ink-muted leading-relaxed font-light font-sans max-w-3xl mb-12">
-                The Sweden deep dive serves as the flagship systems-oriented case showing how different multilevel functions have operated together over time. By combining national research agendas with bold municipal commitments, Sweden is modeling a scalable blueprint for MLG.
+                {deepDiveData.sweden.description}
               </p>
               
-              <div className="flex flex-col gap-px bg-line border border-line mb-10">
-                <div className="bg-surface p-8 md:p-10">
-                  <h3 className="font-heading font-medium text-2xl text-ink mb-6">Key Strategic Models</h3>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div>
-                      <h4 className="text-sm font-bold text-ink mb-2">Climate City Contracts</h4>
-                      <p className="text-sm text-ink-muted font-light leading-relaxed">Joint investment and governance agreements designed to accelerate urban transition by aligning national ministries, agencies, and municipalities on explicit climate goals.</p>
-                    </div>
-                    <div>
-                      <h4 className="text-sm font-bold text-ink mb-2">Viable Cities</h4>
-                      <p className="text-sm text-ink-muted font-light leading-relaxed">A national strategic innovation program serving as a bridging platform, integrating academic research with immediate policy implementation.</p>
-                    </div>
-                    <div className="md:col-span-2">
-                      <h4 className="text-sm font-bold text-ink mb-2">System Demonstrators</h4>
-                      <p className="text-sm text-ink-muted font-light leading-relaxed">Practical, city-scale pilots aiming for large-scale systemic changes—acting as testbeds for legal, financial, and institutional innovation before nationwide deployment.</p>
-                    </div>
+              <div className="flex flex-col gap-8 mb-10">
+                {/* A. The Swedish Context */}
+                <div className="bg-surface border border-line p-8 md:p-10">
+                  <h3 className="font-heading font-medium text-2xl text-ink mb-4">{deepDiveData.sweden.context.title}</h3>
+                  <p className="text-ink-muted leading-relaxed mb-4">
+                    {deepDiveData.sweden.context.description}
+                  </p>
+                  <p className="text-ink-muted leading-relaxed">
+                    {deepDiveData.sweden.context.purpose}
+                  </p>
+                </div>
+
+                {/* B. Governance Model */}
+                <div className="bg-surface border border-line p-8 md:p-10">
+                  <h3 className="font-heading font-medium text-2xl text-ink mb-6">{deepDiveData.sweden.governanceModel.title}</h3>
+                  <p className="text-ink-muted leading-relaxed mb-6">
+                    {deepDiveData.sweden.governanceModel.pathwaysIntro}
+                  </p>
+                  
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                    {deepDiveData.sweden.governanceModel.actionPathways.map((pathway, idx) => (
+                      <div key={idx} className={idx === deepDiveData.sweden.governanceModel.actionPathways.length - 1 && deepDiveData.sweden.governanceModel.actionPathways.length % 2 !== 0 ? "md:col-span-2" : ""}>
+                        <h4 className="text-sm font-bold text-ink mb-2">{pathway.name}</h4>
+                        <p className="text-sm text-ink-muted font-light leading-relaxed">{pathway.description}</p>
+                      </div>
+                    ))}
                   </div>
+
+                  <hr className="border-line mb-8" />
+
+                  <h3 className="font-heading font-medium text-xl text-ink mb-6">{deepDiveData.sweden.governanceModel.orchestrationLogic.title}</h3>
+                  <ul className="list-disc pl-5 space-y-3 text-ink-muted leading-relaxed">
+                    {deepDiveData.sweden.governanceModel.orchestrationLogic.points.map((point, idx) => (
+                      <li key={idx}>{point}</li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             </div>
